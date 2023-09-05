@@ -10,13 +10,11 @@ function App() {
 
   const [pages] = useState([
     {
-      name: "about me"
+      name: "about"
     },
-    { name: "portfolio" },
+    { name: "tutoring" },
     { name: "contact" },
-    {
-      name: "resume"
-    }
+
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
