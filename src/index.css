@@ -176,7 +176,7 @@ li {
 }
 
 header {
-  height: 200px;
+  height: 220px;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -200,7 +200,7 @@ nav {
   position: relative;
   font-family: 'Rajdhani', sans-serif;
   font-size: 2.5rem;
-  margin: 30px 20px;
+  margin: 10px 5px;
 }
 
 nav a:hover {
@@ -320,11 +320,11 @@ textarea {
 }
 
 .profilePic {
-  max-width: 50%;
-  max-height: 300px;
+  max-width: 75%;
+  max-height: 600px;
   min-height: 200px;
   min-width: 200px;
-  display: inline;
+  display: block;
 }
 
 .project {
@@ -342,7 +342,7 @@ textarea {
 }
 
 .project-text {
-    color: var(--secondary);
+    color: var(--darker);
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -408,5 +408,11 @@ textarea {
     width: 100%;
     text-align: center;
     font-size: 2rem;
+  }
+  header {
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
   }
 }

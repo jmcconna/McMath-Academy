@@ -6,38 +6,38 @@ function Portfolio() {
   
   const [projects] = useState([
     {
-      name: 'daily-dungeon',
-      description: 'MERN Stack',
+      name: 'Pre-Algebra',
+      description: 'Solidify your foundation before beginning algebra',
       link: "https://fathomless-brook-62747-69ac2fbd8802.herokuapp.com/",
       repo: "https://github.com/jmcconna/Daily-Dungeon"
     },
     {
-      name: 'trivia-game', //trivia game
-      description: 'Javascript, CSS, RESTful APIs',
+      name: 'Algebra 1', 
+      description: 'Understanding variables and basic functions',
       link: "https://jtruehitt.github.io/Do_You_Even_Trivia_Bro/",
       repo: "https://github.com/JTruehitt/Do_You_Even_Trivia_Bro"
     },
     {
-      name: 'Weather Dashboard',
-      description: 'Javascript, RESTful APIs',
+      name: 'Geometry',
+      description: 'Points, pictures, and proofs',
       link: "https://jmcconna.github.io/Weather-Dashboard/",
       repo: "https://github.com/jmcconna/Weather-Dashboard"
     },
     {
-      name: 'SVG Logo Maker',
-      description: 'Node, CLI',
+      name: 'Algebra 2 and Trigonometry',
+      description: 'More complicated functions with more variables',
       link: "https://github.com/jmcconna/SVG-Logo-Maker",
       repo: "https://github.com/jmcconna/SVG-Logo-Maker"
     },
     {
-      name: 'Social Network API',
-      description: 'MongoDb, Express',
+      name: 'Pre-Calculus',
+      description: 'Limits and stuff',
       link: "https://github.com/jmcconna/Social-Network-API",
       repo: "https://github.com/jmcconna/Social-Network-API"
     },
     {
-      name: 'Text Editor PWA',
-      description: 'Progressive Web App',
+      name: 'Calculus',
+      description: 'Integrals and Derivatives',
       link: "https://github.com/jmcconna/Text-Editor-PWA",
       repo: "https://github.com/jmcconna/Text-Editor-PWA"
     },

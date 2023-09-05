@@ -1,10 +1,5 @@
 import React from 'react';
-import dungeonPic from "../../assets/projects/daily-dungeon.jpg";
-import triviaPic from "../../assets/projects/trivia-game.png";
-import SVGGeneratorPic from "../../assets/projects/circle.svg";
-import WeatherPic from "../../assets/projects/weather-dashboard.jpg";
-import shortStoryPic from "../../assets/projects/ShortStoryLibrary.jpg";
-import socialAPIPic from "../../assets/projects/Social-Media-API.png";
+import mathPic from "../../assets/images/math.jpg";
 
 function Projects() {
 
@@ -13,105 +8,92 @@ function Projects() {
   return (
     <div>
 
-      <div className="project" key="Daily Dungeon">
+      <div className="project" key="Pre-Algebra">
         <img
-          src={dungeonPic}
-          alt="Daily Dungeon RPG"
+          src={mathPic}
+          alt="Pre-Algebra"
           className="project-bg"
         />
         <div className="project-text">
           <h3>
-            <a href="https://fathomless-brook-62747-69ac2fbd8802.herokuapp.com/">Daily Dungeon</a>{' '}
-            <a href="https://github.com/jmcconna/Daily-Dungeon">
-              <i className="fab fa-github"></i>
-            </a>
+          <a href="#">Pre-Algebra</a>
           </h3>
-          <p>'MERN Stack'</p>
+          <p>'Solidify your foundation before beginning algebra'</p>
         </div>
       </div>
 
-      <div className="project" key="Trivia Game">
+      <div className="project" key="Algebra 1">
         <img
-          src={triviaPic}
-          alt="Do You Even Trivia, Bro?"
+          src={mathPic}
+          alt="Algebra 1"
           className="project-bg"
         />
         <div className="project-text">
           <h3>
-            <a href="https://jtruehitt.github.io/Do_You_Even_Trivia_Bro/">Trivia Game</a>{' '}
-            <a href="https://github.com/JTruehitt/Do_You_Even_Trivia_Bro">
-              <i className="fab fa-github"></i>
-            </a>
+            <a href="https://jtruehitt.github.io/Do_You_Even_Trivia_Bro/">Algebra 1</a>{' '}
+            
           </h3>
-          <p>'Javascript, RESTful APIs, CSS'</p>
+          <p>Understanding variables and basic functions'</p>
         </div>
       </div>
 
-      <div className="project" key="Weather Dashboard">
+      <div className="project" key="Geometry">
         <img
-          src={WeatherPic}
-          alt="Weather Dashboard"
+          src={mathPic}
+          alt="Geometry"
           className="project-bg"
         />
         <div className="project-text">
           <h3>
-            <a href="https://jmcconna.github.io/Weather-Dashboard/">Weather Dashboard</a>{' '}
-            <a href="https://github.com/jmcconna/Weather-Dashboard">
-              <i className="fab fa-github"></i>
-            </a>
+            <a href="https://jmcconna.github.io/Weather-Dashboard/">Geometry</a>{' '}
+            
           </h3>
-          <p>'Javascript, RESTful APIs'</p>
+          <p>'Points, pictures, and proofs'</p>
         </div>
       </div>
 
-      <div className="project" key="SVG Logo Maker">
+      <div className="project" key="Algebra 2 and Trigonometry">
         <img
-          src={SVGGeneratorPic}
-          alt="SVG Logo Maker"
+          src={mathPic}
+          alt="Algebra 2 and Trigonometry"
           className="project-bg"
         />
         <div className="project-text">
           <h3>
-            <a href="https://github.com/jmcconna/SVG-Logo-Maker">SVG Logo Maker</a>{' '}
-            <a href="https://github.com/jmcconna/SVG-Logo-Maker">
-              <i className="fab fa-github"></i>
-            </a>
+            <a href="https://github.com/jmcconna/SVG-Logo-Maker">Algebra 2 and Trigonometry</a>{' '}
+           
           </h3>
-          <p>'Node, CLI''</p>
+          <p>More complicated functions with more variables'</p>
         </div>
       </div>
 
-      <div className="project" key="Social Network API">
+      <div className="project" key="Pre-Calculus">
         <img
-          src={socialAPIPic}
-          alt="Social Network API"
+          src={mathPic}
+          alt="Pre-Calculus"
           className="project-bg"
         />
         <div className="project-text">
           <h3>
-            <a href="https://github.com/jmcconna/Social-Network-API">Social Network API</a>{' '}
-            <a href="https://github.com/jmcconna/Social-Network-API">
-              <i className="fab fa-github"></i>
-            </a>
+            <a href="https://github.com/jmcconna/Social-Network-API">Pre-Calculus</a>{' '}
+            
           </h3>
-          <p>'MongoDb, Express'</p>
+          <p>'Limits and stuff'</p>
         </div>
       </div>
 
-      <div className="project" key="Short Story Library">
+      <div className="project" key="Calculus">
         <img
-          src={shortStoryPic}
-          alt="Books on a shelf"
+          src={mathPic}
+          alt="Calculus"
           className="project-bg"
         />
         <div className="project-text">
           <h3>
-            <a href="https://evening-hollows-76995-cbe2d520bede.herokuapp.com/">Short Story Library</a>{' '}
-            <a href="https://github.com/jmcconna/Short-Story-Library">
-              <i className="fab fa-github"></i>
-            </a>
+            <a href="https://evening-hollows-76995-cbe2d520bede.herokuapp.com/">Calculus</a>{' '}
+            
           </h3>
-          <p>'MySQL, Handlebars, Javascript'</p>
+          <p>'Integrals and Derivatives'</p>
         </div>
       </div>
      
